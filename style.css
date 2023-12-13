@@ -1,15 +1,55 @@
 /* Barra de navegacion */
 
-.navbar {
-  padding: 2rem;
-  background-color: #f5f6f7;
+
+/* pulsacion del corazon */
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#losa{
+  color: #f5f6f7;
+}
+.pulse {
+  animation: pulse 2s infinite;
+  width: 20px;
+  height: 20px;
+}
+
+
+/*  */
+.navbar-brand{
+  padding-left: 40px;
+  /* padding: 1rem; */
+}
+.nav-item{
+  padding-right: 30px;
+
+}
+
+#navbar-toggler{
+padding-right: 40px;
 }
 
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;  
 }
-
+/* 
+#segundo{
+  border-bottom: none;
+} */
 /* Estilos generales */
 
 section {
@@ -21,7 +61,8 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Dancing Script', cursive;
+  color: #f5f6f7;
 }
 
 .seccion-oscura {
@@ -66,12 +107,15 @@ h1 {
 
 .hero {
   background-color: #f5f6f7;
-  min-height: 450px;
+  min-height: 100vh;
   text-align: center;
+  border-color:white;
+  
 }
 
 .hero-principal {
   padding: 3rem;
+  text-align: center;
 }
 
 .hero-imagen-desarrollador {
@@ -82,8 +126,16 @@ h1 {
 
 .hero-principal h2 {
   font-size: 1.5rem;
-  color: #615151;
+  font-family: 'DM Sans', sans-serif;
+  /* color: #615151; */
 }
+
+#sub{
+  color: white;
+  font-size: 18px;
+  
+}
+
 
 /* Sobre mi */
 
@@ -97,6 +149,10 @@ h1 {
   text-align: center;
 }
 
+.seccion-titulo{
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+}
 /* Experiencia */
 
 .experiencia {
@@ -111,19 +167,24 @@ h1 {
   align-items: center;
   justify-content: space-evenly;
   transition: all 0.2s ease-in;
+  background-color: #ffdfe5;
 }
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #1b1b32;
+  background-color: #bb6b8f;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: #060606;
+  background-color: #ff91c3;
   padding: 8px 19px;
   border-radius: 50%;
+}
+
+#exp{
+  padding: 8px 19px;
 }
 
 .experiencia-titulo {
@@ -360,6 +421,12 @@ footer {
   padding: 20px;
 }
 
+
+#contacto{
+  background-color: #bb6b8f;
+}
+
+
 /* Adaptable (Responsivo) */
 
 @media screen and (max-width: 400px) {
@@ -393,4 +460,42 @@ footer {
   .hero-inferior-imagen {
     max-width: 600px;
   }
+}
+
+
+/* animacion de destello en el segundo div */
+.destello-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.destello {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 10%, transparent 80%);
+  transform: scale(0);
+  animation: destelloAnimacion 1s ease-out;
+  cursor: pointer; /* Hace que el cursor se muestre como un puntero al pasar sobre el destello */
+}
+
+@keyframes destelloAnimacion {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+#segundo{
+  height: 100%;
+}
+p{
+  text-align: justify;
 }

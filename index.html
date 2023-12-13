@@ -21,95 +21,112 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- Enlace a la fuente Dancing Script desde Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+ 
+    
   </head>
   <body>
     <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-md navbar-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-toggler">
-          <a class="navbar-brand" href="#">
-            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
-          </a>
-          <ul class="navbar-nav d-flex justify-content-center align-items-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#proyectos">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonios">Testimonios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contactame</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <nav class="navbar navbar-expand-md navbar-light bg-dark" id="menu">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse" id="navbar-toggler">
+      <a class="navbar-brand" href="#">
+        <img src="imagenes/codigo.png" width="50" alt="Logo de la página web">
+      </a>
+      <ul class="navbar-nav" id="letras">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#sobre-mi" id="losa">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos" id="losa">Proyects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonios" id="losa">Testimonies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto" id="losa">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
     <!-- Seccion Hero -->
-    <section class="hero align-items-stretch">
+    <section class="hero bg-black destello-container" id="segundo">
+<!-- align-items-stretch -->
       <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/desarrollador-ejemplo.svg" alt="Foto de Jane Doe">
-        <h1>Hi, Soy D.Abril Sanchez</h1>
-        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
-
-        <!--Animación con JavaScript-->
-        <h2 class="text-primary mb-4" id="typewriter"></h2>
+        <!-- Contenedor para los destellos -->
+        <div class="destello-container">
+          <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/yo2.jpg" alt="Foto Abril">
+          <h1>Hi, I'm  D.Abril Sanchez</h1>
+          <h2 id="sub">Desarrollo sitios web tanto en backend y frontend. <img src="imagenes/coraa.png" class="pulse"> </h2>
+          <!--Animación con JavaScript-->
+          <h2 class="text-primary" id="typewriter"></h2>
+        </div>
       </div>
-      <div class="hero-inferior">
-        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
-      </div>
-    </section>
-
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f8f9fa" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path></svg>
+      </section>
+    
+     
     <!-- Sobre mi -->
-    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <section id="sobre-mi" class="sobre-mi bg-light ">
+
       <div class="contenedor">
-        <h2 class="seccion-titulo">Conoce a Jane Doe</h2>
-        <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. Donec et venenatis nunc, vel hendrerit ex. Vestibulum sapien ipsum, rutrum eget est et, ultricies sagittis urna. In non volutpat est. Vestibulum diam sapien, ultrices et euismod at, ultrices ut odio. Nullam in massa et elit ultrices suscipit. Proin lacinia leo ac posuere placerat.</p>
+        <h2 class="seccion-titulo">Conoce a Abril Sánchez</h2>
+        <p class="seccion-texto">Actualmente soy estudiante universitaria de Ingeniería en Sistemas. He participado en un par de hackatones, 
+          teniendo una experiencia sumamente gratificante. Disfruto trabajando en equipo e innovando en los proyectos en los que participo.
+           Cada desafío es una oportunidad para aprender y crecer profesionalmente. Mi pasión por la tecnología y la resolución de problemas
+            me impulsa a buscar constantemente nuevas formas de mejorar y optimizar los sistemas. Creo firmemente en el poder de la colaboración 
+            y la comunicación efectiva para lograr resultados sobresalientes. Mi objetivo es utilizar mis habilidades y conocimientos para hacer
+             una diferencia positiva en el campo de la ingeniería de sistemas.   </p>
       </div>
     </section>
-
+  
     <!-- Experiencia -->
     <section class="experiencia seccion-clara">
       <div class="container text-center">
         <div class="row">
           <!-- Desarrollo Web -->
-          <div class="columna col-12 col-md-4">
+          <div class="columna col-12 col-md-4 " id="exp">
             <i class="bi bi-laptop"></i>
             <p class="experiencia-titulo">Desarrollo Web</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
-            <div class="badges-contenedor">
-              <span class="badge text-bg-primary">HTML</span>
-              <span class="badge text-bg-primary">CSS</span>
-              <span class="badge text-bg-primary">JavaScript</span>
-              <span class="badge text-bg-primary">React</span>
+            <p>Desarrolladora web de frontend y backend, me gusta jugar ambos para el buen funcionamiento de la pagina.</p>
+            <div class="badges-conte  nedor">
+              <span class="badge text-bg-dark">HTML</span>
+              <span class="badge text-bg-dark">CSS</span>
+              <span class="badge text-bg-dark">JavaScript</span>
+              <span class="badge text-bg-dark">React</span>
+              <span class="badge text-bg-dark">Node.js</span>
             </div>
           </div>
           <!-- Articulos -->
-          <div class="columna col-12 col-md-4">
+          <div class="columna col-12 col-md-4 " id="exp">
             <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Artículos</p>
+            <p class="experiencia-titulo">Conocimientos</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
             <div class="badges-contenedor">
-              <span class="badge text-bg-primary">Escribir</span>
-              <span class="badge text-bg-primary">Editar</span>
-              <span class="badge text-bg-primary">Blogs</span>
+              <span class="badge text-bg-dark">Escribir</span>
+              <span class="badge text-bg-dark">Editar</span>
+              <span class="badge text-bg-dark">Blogs</span>
             </div>
           </div>
           <!-- Estudiante -->
-          <div class="columna col-12 col-md-4">
+          <div class="columna col-12 col-md-4" id="exp">
             <i class="bi bi-laptop"></i>
             <p class="experiencia-titulo">Estudiante</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
             <div class="badges-contenedor">
-              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
-              <span class="badge text-bg-primary">Desarrollo Web</span>
-              <span class="badge text-bg-primary">Python</span>
+              <span class="badge text-bg-dark">Tecnolochicas PRO</span>
+              <span class="badge text-bg-dark">Desarrollo Web</span>
+              <span class="badge text-bg-dark">Python</span>
             </div>
           </div>
         </div>
@@ -119,22 +136,22 @@
     <!-- Proyectos -->
     <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
       <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
-      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente :&rpar;</h3>
       <!-- Galeria de Proyectos -->
       <div class="container text-center proyectos-contenedor">
         <div class="row">
           <!-- Proyecto 1 -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+              <img src="imagenes/pro1.png" alt="Proyecto 1">
               <div class="overlay">
-                <p>Proyecto 1</p>
+                <p>Clon de Google</p>
                 <div class="iconos-contenedor">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Abril12Sanchez/google_clon.git" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
                   </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-laptop"></i>
+                  <a href="https://google-clon-five.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop-fill"></i>
                   </a>
                 </div>
               </div>
@@ -151,7 +168,7 @@
                     <i class="bi bi-github"></i>
                   </a>
                   <a href="#/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-laptop"></i>
+                    <i class="bi bi-laptop-fill"></i>
                   </a>
                 </div>
               </div>
@@ -168,7 +185,7 @@
                     <i class="bi bi-github"></i>
                   </a>
                   <a href="#/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-laptop"></i>
+                    <i class="bi bi-laptop-fill"></i>
                   </a>
                 </div>
               </div>
@@ -228,7 +245,7 @@
         </div>
       </div>
       <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-        <button type="button" class="btn btn-info">
+        <button type="button" class="btn btn-info" id="contacto">
           Ver más proyectos
           <i class="bi bi-arrow-right-circle-fill"></i>
         </button>
@@ -286,9 +303,9 @@
     </section>
 
     <!-- Contacto -->
-    <section id="contacto" class="contacto seccion-oscura">
+    <section id="contacto" class="contacto seccion-oscura bg-black">
       <div class="container">
-        <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="container text-center rectangulo d-flex justify-content-evenly " id="contacto">
           <div class="row">
             <div class="col-12 col-md-4 seccion-titulo">
               ¡Hablemos!
@@ -310,7 +327,7 @@
     </section>
     
     <!-- Pie de pagina (footer) -->
-    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center bg-black"> 
       <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
       <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
@@ -330,13 +347,14 @@
           <i class="bi bi-envelope"></i>
         </a>
       </div>
-      <div class="derechos-de-autor">Creado por Jane Doe (2022) &#169;</div>
+      <div class="derechos-de-autor">Creado por Dolores Abril Sánchez Camacho 🩶 (2023) &#169;</div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
         <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <script src="main.js"></script>
+        <script src="animaciones.js"></script>
 
   </body>
 </html>
