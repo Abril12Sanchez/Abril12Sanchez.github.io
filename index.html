@@ -30,11 +30,11 @@
   <body>
     <!-- Barra de navegacion -->
     <nav class="navbar navbar-expand-md navbar-light bg-dark" id="menu">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse" id="navbar-toggler">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
       <a class="navbar-brand" href="#">
         <img src="imagenes/codigo.png" width="50" alt="Logo de la página web">
       </a>
@@ -68,21 +68,21 @@
         <div class="destello-container">
           <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/yo2.jpg" alt="Foto Abril">
           <h1>Hi, I'm  D.Abril Sanchez</h1>
-          <h2 id="sub">Desarrollo sitios web tanto en backend y frontend. <img src="imagenes/coraa.png" class="pulse"> </h2>
+          <h2 id="sub">Innovando en cada línea de código. <class="pulse"> </h2>
+          <!-- <h2 id="sub">Desarrollo sitios web tanto en backend y frontend. <img src="imagenes/coraa.png" class="pulse"> </h2> -->
           <!--Animación con JavaScript-->
-          <h2 class="text-primary" id="typewriter"></h2>
+          <h2 class="text-primary mt-5" id="typewriter"></h2>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#f8f9fa" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      <svg class="mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path  id="sobre-mi" fill="#f8f9fa" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
       </path></svg>
-      </section>
-    
+
      
     <!-- Sobre mi -->
-    <section id="sobre-mi" class="sobre-mi bg-light ">
+    <section id="sobre-mi" class="sobre-mi bg-light col-12 mt-0">
 
-      <div class="contenedor">
+      <div class="contenedor mt-5">
         <h2 class="seccion-titulo">Conoce a Abril Sánchez</h2>
         <p class="seccion-texto">Actualmente soy estudiante universitaria de Ingeniería en Sistemas. He participado en un par de hackatones, 
           teniendo una experiencia sumamente gratificante. Disfruto trabajando en equipo e innovando en los proyectos en los que participo.
@@ -92,6 +92,7 @@
              una diferencia positiva en el campo de la ingeniería de sistemas.   </p>
       </div>
     </section>
+  </section>
   
     <!-- Experiencia -->
     <section class="experiencia seccion-clara">
@@ -101,13 +102,14 @@
           <div class="columna col-12 col-md-4 " id="exp">
             <i class="bi bi-laptop"></i>
             <p class="experiencia-titulo">Desarrollo Web</p>
-            <p>Desarrolladora web de frontend y backend, me gusta jugar ambos para el buen funcionamiento de la pagina.</p>
+            <p>Desarrolladora web de frontend y backend, me gusta jugar con ambos para el buen funcionamiento de la pagina.</p>
             <div class="badges-conte  nedor">
               <span class="badge text-bg-dark">HTML</span>
               <span class="badge text-bg-dark">CSS</span>
               <span class="badge text-bg-dark">JavaScript</span>
               <span class="badge text-bg-dark">React</span>
               <span class="badge text-bg-dark">Node.js</span>
+              <span class="badge text-bg-dark">Flutter</span>
             </div>
           </div>
           <!-- Articulos -->
@@ -121,17 +123,18 @@
               <span class="badge text-bg-dark">Programación Móvil</span>
               <span class="badge text-bg-dark">Bases de datos</span>
               <span class="badge text-bg-dark">Six Sigma</span>
+              <span class="badge text-bg-dark">Scrum</span>
             </div>
           </div>
           <!-- Estudiante -->
           <div class="columna col-12 col-md-4" id="exp">
             <i class="bi bi-laptop"></i>
             <p class="experiencia-titulo">Estudiante</p>
-            <p> Actualmente estudio ingenieria en la Universidad Tecnologica de San Juan del Rio </p>
+            <p> Actualmente estudio ingenieria en la Universidad Tecnologica de San Juan del Río </p>
             <div class="badges-contenedor">
-              <span class="badge text-bg-dark">TSU en Informatica</span>
-              <span class="badge text-bg-dark">Tecnolochicas PRO</span>
-              <span class="badge text-bg-dark">Ingeniería en sistema</span>
+              <span class="badge text-bg-dark">TSU en Informatica | Concluido</span>
+              <span class="badge text-bg-dark">Tecnolochicas PRO | Bootcamp</span>
+              <span class="badge text-bg-dark">Ingeniería en sistemas | En proceso</span>
             </div>
           </div>
         </div>
@@ -250,7 +253,7 @@
         </div>
       </div>
       <a href="https://github.com/Abril12Sanchez" target="_blank" rel="noopener noreferrer">
-        <button type="button" class="btn btn-info" id="contacto">
+        <button type="button" class="btn btn-info" id="contactoBoton" >
           Ver más proyectos
           <i class="bi bi-arrow-right-circle-fill"></i>
         </button>
@@ -260,7 +263,7 @@
     <!-- Testimonios -->
     <section id="testimonios" class="testimonios seccion-clara">
       <h2 class="seccion-titulo">Testimonios</h2>
-      <h3 class="seccion-descripcion">Comentarios de socios</h3>
+      <h3 class="seccion-descripcion">Comentarios de compañeros de trabajo:</h3>
       
       <!-- Carrusel -->
       <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -269,10 +272,10 @@
             <div class="container">
               <img class="testimonio-imagen rounded-circle" src="imagenes/vict.jpg" alt="Foto de Victor">
               <p class="testimonio-texto"> Abril trabaja muy bien y cumple con los tiempos de entrega ,
-                 en lo que mas se especializa es en el front end , es muy intuitiva y creativa.</p>
+                 en lo que mas se especializa es en el front-end , es muy intuitiva y creativa.</p>
               <div class="testimonio-info">
                 <p class="cliente">Victor</p>
-                <p class="cargo">Socio de proyectos en DesarrolloWeb</p>
+                <p class="cargo">compañero de proyectos en DesarrolloWeb</p>
               </div>
             </div>
           </div>
@@ -318,7 +321,7 @@
               ¡Conversemos!
             </div>
             <div class="col-12 col-md-4 descripcion">
-              Juntos podemos lograr mucho más. Si tienes una idea o proyecto en mente, hablemos. Estoy listo para escucharte.
+              Juntos podemos lograr mucho más. Si tienes una idea o proyecto en mente, hablemos. Estoy lista para escucharte.
             </div>
             <div class="col-12 col-md-4" id="contacto">
               <a href="mailto:doloresabrilsanchez@gmail.com">
@@ -336,7 +339,7 @@
     <!-- Pie de pagina (footer) -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center bg-black"> 
       <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
-      <p class="footer-texto text-center">No solo construimos sitios web; <br> creamos experiencias memorables</p>
+      <p class="footer-texto text-center">No solo escribimos código;  <br> construimos el futuro.</p>
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
         <a href="https://www.facebook.com/abril.sc.1?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-facebook"></i>

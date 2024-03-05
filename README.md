@@ -1,8 +1,5 @@
 # Portafolio Adaptable (Responsive) con Bootstrap 5
 
-> [Portafolio de Abril ](https://abril12sanchez.github.io/)
-
-
 Este proyecto creado para el bootcamp Tecnolochicas PRO, es una página web adaptable a dispositivos de distintos tamaños (este tipo de sitio web se conoce en inglés como "responsive"). 
 
 El propósito de esta página web es mostrar el portafolio de proyectos de un(a) desarrollador(a) y su experiencia. Incluye una descripción breve de su motivación, experiencia, proyectos, artículos publicados y formas de contacto. 
@@ -13,23 +10,23 @@ También incluye imágenes alternativas en la carpeta `imagenes` en caso de que 
 
 Primera parte de la página web:
 
-![image](https://github.com/Abril12Sanchez/Abril12Sanchez.github.io/assets/137373616/a8a084c6-ce94-47e1-95ed-e434d75af8b4)
+![Primera parte de la página web](imagenes/screenshot1.png)
 
 Experiencia:
 
-![image](https://github.com/Abril12Sanchez/Abril12Sanchez.github.io/assets/137373616/86ace83c-149e-4810-90f5-9f17b2cba5de)
+![Experiencia](imagenes/screenshot2.png)
 
 Proyectos:
 
-![image](https://github.com/Abril12Sanchez/Abril12Sanchez.github.io/assets/137373616/8ec4fc15-df88-49f2-87c0-0145ac1ae1ae)
-
+![Proyectos](imagenes/screenshot3.png)
 
 Testimonios:
-![image](https://github.com/Abril12Sanchez/Abril12Sanchez.github.io/assets/137373616/3bbf6904-cb8d-4978-b9da-d5d570f20029)
 
+![Testimonios](imagenes/screenshot4.png)
 
 Contacto:
-![image](https://github.com/Abril12Sanchez/Abril12Sanchez.github.io/assets/137373616/9c57b11b-e92e-48d1-8c36-53e0d6e9d291)
+
+![Contacto](imagenes/screenshot5.png)
 
 ## Tecnologías
 
@@ -44,7 +41,7 @@ Además, se incluyeron **Google Fonts** para personalizar la fuente y **Bootstra
 
 ## Español
 
-El texto de la página web está escrito en español y el menu en ingles, al igual que las clases y atributos personalizados. Las clases relacionadas con Bootstrap se incluyeron en inglés.
+El texto de la página web está escrito en español, al igual que las clases y atributos personalizados. Las clases relacionadas con Bootstrap se incluyeron en inglés.
 
 
 

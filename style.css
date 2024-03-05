@@ -1,6 +1,5 @@
 /* Barra de navegacion */
 
-
 /* pulsacion del corazon */
 
 @keyframes pulse {
@@ -426,7 +425,9 @@ footer {
   background-color: #bb6b8f;
 }
 
-
+#contactoBoton{
+  background-color: #bb6b8f;
+}
 /* Adaptable (Responsivo) */
 
 @media screen and (max-width: 400px) {
