@@ -10,23 +10,28 @@ También incluye imágenes alternativas en la carpeta `imagenes` en caso de que 
 
 Primera parte de la página web:
 
-![Primera parte de la página web](imagenes/screenshot1.png)
+![image](https://github.com/Abril12Sanchez/Abril12Sanchez.github.io/assets/137373616/11f2aa95-d053-4c8e-8e47-853f724ab995)
+
 
 Experiencia:
 
-![Experiencia](imagenes/screenshot2.png)
+![image](https://github.com/Abril12Sanchez/Abril12Sanchez.github.io/assets/137373616/3120f916-a4d8-4959-8dfd-819f1d8cef7d)
+
 
 Proyectos:
 
-![Proyectos](imagenes/screenshot3.png)
+![image](https://github.com/Abril12Sanchez/Abril12Sanchez.github.io/assets/137373616/b5b7700f-3de9-42c3-879e-35370bd97bec)
+
 
 Testimonios:
 
-![Testimonios](imagenes/screenshot4.png)
+![image](https://github.com/Abril12Sanchez/Abril12Sanchez.github.io/assets/137373616/5513cc51-da0b-474c-b32e-8e89b328da0d)
+
 
 Contacto:
 
-![Contacto](imagenes/screenshot5.png)
+![image](https://github.com/Abril12Sanchez/Abril12Sanchez.github.io/assets/137373616/8fbea02f-7b5f-4d18-8245-f6fb97e0fbd4)
+
 
 ## Tecnologías
 
